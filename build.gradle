@@ -16,7 +16,7 @@ sourceSets.test.runtimeClasspath += configurations.providedCompile
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    providedCompile 'com.github.Sjoner:khttp:0.0.5'
+    providedCompile 'com.github.Sjoner:khttp:0.1.0'
     testCompile 'junit:junit:4.12'
     compile 'com.google.code.gson:gson:2.2.4'
 }

@@ -1,8 +1,9 @@
-package com.sjoner.http
+package cn.sjoner.khttp
 
-import com.sjoner.http.bean.KuaiDiQueryReq
-import com.sjoner.http.bean.QueryResp
-import com.sjoner.http.converter.GsonResponseConverter
+import cn.sjoner.khttp.*
+import cn.sjoner.khttp.bean.KuaiDiQueryReq
+import cn.sjoner.khttp.bean.QueryResp
+import cn.sjoner.khttp.converter.GsonResponseConverter
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import retrofit2.Response
@@ -39,7 +40,7 @@ class Main{
 }
 
 
-inline fun <F:Any,reified T:Any> testHttp(init: Request<F,T>.() -> Unit):Response<T>{
+inline fun <F:Any,reified T:Any> testHttp(init: Request<F, T>.() -> Unit):Response<T>{
 
     val request = Request<F,T>()
 

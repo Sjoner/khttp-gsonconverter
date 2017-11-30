@@ -1,4 +1,4 @@
-package com.sjoner.http.converter
+package cn.sjoner.khttp.converter
 
 import com.google.gson.Gson
 import okhttp3.ResponseBody

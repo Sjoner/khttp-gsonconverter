@@ -11,7 +11,8 @@ allprojects {
 
 ```java
 dependencies {
-	 compile 'com.github.Sjoner:khttp-gsonconverter:0.0.1'
+     compile 'com.github.Sjoner:khttp:0.0.5'
+     compile 'com.github.Sjoner:khttp-gsonconverter:0.0.2'
 }
 ```
 
